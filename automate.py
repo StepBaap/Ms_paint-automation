@@ -53,3 +53,6 @@ for i in range(len(frame_contours)):
 		x = frame_contours[i][j][0][0]
 		y = frame_contours[i][j][0][1]
 		gui.dragTo(x+x0,y+y0,button="left")
+		
+		
+		
